@@ -1,0 +1,29 @@
+.close {
+  cursor: pointer;
+  width: 2.2rem;
+  height: 2.2rem;
+}
+
+.close img {
+  width: inherit;
+  height: inherit;
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  padding: 0.8rem 3rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--primary-clr);
+  border: 1px solid var(--primary-text-clr);
+}
+
+.btn-cancel {
+  background-color: var(--danger-clr);
+  border: 1px solid #da0037;
+}

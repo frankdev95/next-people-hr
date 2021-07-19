@@ -1,5 +1,15 @@
 html,
 body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  scroll-behavior: smooth;
+  --main-grey-clr: #a6a9b6;
+  --primary-text-clr: #259fa0;
+  --primary-clr: #0e687b;
+  --danger-clr: #cd113b;
+  --primary-text-grey: #555555;
+  --border-radius-main: 5px;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -13,4 +23,30 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+#overlay-example {
+  z-index: 10000;
+}
+
+.tooltip-inner {
+  font-size: 1.1rem;
+}
+
+/* 600px */
+@media only screen and (min-width: 37.5em) {
+}
+
+/* 900px */
+@media only screen and (min-width: 56.25em) {
+}
+
+@media only screen and (min-width: 75em) {
 }

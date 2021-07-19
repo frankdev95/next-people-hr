@@ -1,0 +1,25 @@
+.confirmation-message {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  width: 40rem;
+  text-align: center;
+}
+
+.confirmation-message h2 {
+  background-color: var(--primary-clr);
+  color: white;
+  padding: 1.5rem 1rem;
+  font-weight: 300;
+}
+
+.actions {
+  display: flex;
+  padding: 1.5rem 1rem 2rem;
+  justify-content: center;
+}
+
+.actions button:first-child {
+  margin-right: 1.5rem;
+}
